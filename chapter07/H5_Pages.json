@@ -1,0 +1,18 @@
+[
+  {
+    "description":"H5模板项目中的pages接口",
+
+    "request":
+    {
+      "uri":"/api/pages",
+      "method":"get",
+      "queries":
+      {
+        "type":""
+      }
+    },
+    "response":{
+      "json":
+    }
+  }
+]

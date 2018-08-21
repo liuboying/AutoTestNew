@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suite">
+    <test name="test">
+        <classes name="classes">
+            <class name="ExtentReportTes"/>
+            <methods><!--methods及以内标签非必须,制定了include标签，则只运行inlcude标签说明了的方法，未指定则根据@Test注释中的enable标签是否为true来决定-->
+                <include name="test1"/>
+                <include name="test2"/>
+                <include name="test3"/>
+            </methods>
+        </classes>
+    </test>
+    <listeners>
+       <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+        <!-- <listener class-name="com.extentReport.demo.ExtentTestNGIReporterListener"/>-->
+    </listeners>
+</suite>

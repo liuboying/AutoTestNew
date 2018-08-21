@@ -1,0 +1,4 @@
+//引入单个json文件
+java -jav ./moco-runner-0.11.0-standalone.jar http -p 8888 -c demo1.json
+//引入多个json文件
+java -jav ./moco-runner-0.11.0-standalone.jar http -p 8888 -g config.json

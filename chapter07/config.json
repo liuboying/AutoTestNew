@@ -1,0 +1,8 @@
+[
+  {"include":"demo1.json"},
+  {"include":"demoGet.json"},
+  {"include":"demoPost.json"},
+  {"include":"getWithCookies.json"},
+  {"include":"postWithCookies.json"},
+  {"include":"appstart.json"}
+]

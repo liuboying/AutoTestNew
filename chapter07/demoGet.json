@@ -1,0 +1,31 @@
+[
+  {
+    "description":"不带参数的get请求demo",
+    "request":{
+      "uri":"/getNoParam",
+      "method":"get"
+    },
+    "response":{
+      "text":"这是一个不带参数的get请求"
+    }
+  },
+  {
+    "description":"带参数的get请求demo",
+    "request":{
+      "uri":"/getWithParam",
+      "method":"get",
+      "queries":{
+        "name":"liuboying",
+        "age":"30"
+      }
+    },
+    "response":{
+      "json":[
+        {"name":"liuboying",
+        "age":30},
+        {"name":"liu1",
+        "age":"20"}
+      ]
+    }
+  }
+]

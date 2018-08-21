@@ -1,0 +1,32 @@
+[
+  {
+    "description":"央视新闻+中的/common/appstart",
+    "request":
+    {
+      "uri":"/commom/appstart",
+      "method":"get"
+    },
+    "response":
+    {
+      "json":
+      {
+        "msg":"成功",
+        "data":
+        {
+          "type":"2",
+          "push_data":
+          [
+            {
+              "jump_url":"https://mall.jd.com/index-135328.html?q1vvs56762",
+              "jump_type":"2",
+              "url":"https://www.newscctv.net/tap2cdn/video/images//images/10001/731/20180201100437754.jpeg"
+            }
+          ]
+        },
+        "status":"SUCCESS",
+        "errorcode":"0",
+        "timeline":1519032208
+      }
+    }
+  }
+]
