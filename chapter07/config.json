@@ -4,5 +4,8 @@
   {"include":"demoPost.json"},
   {"include":"getWithCookies.json"},
   {"include":"postWithCookies.json"},
-  {"include":"appstart.json"}
+  {"include":"appstart.json"},
+  {"include":"postWithHeaders.json"},
+  {"include":"demoRedirect.json"}
+
 ]

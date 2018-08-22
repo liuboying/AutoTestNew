@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suite">
+    <test name="test">
+        <classes name="classes">
+            <class name="com.course.httpclient.getcookies.MyCookies"/>
+            <method>
+                <inlcude name="test1"/>
+                <inlcude name="test2"/>
+            </method>
+        </classes>
+    </test>
+    <listeners>
+        <lisetener  name="com.course.httpclient.getcookies.ExtentTestNGIReporterListener"/>
+    </listeners>
+
+</suite>

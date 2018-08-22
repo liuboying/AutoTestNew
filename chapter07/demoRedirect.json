@@ -1,0 +1,22 @@
+[
+  {
+    "description":"重定向",
+    "request":
+    {
+      "uri":"/redirect"
+    },
+    "redirectTo":"/destination"
+  },
+  {
+    "description":"目标页面",
+    "request":
+    {
+      "uri":"/destination",
+      "method":"get"
+    },
+    "response":
+    {
+      "text":"这是目标页面"
+    }
+  }
+]

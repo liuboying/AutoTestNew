@@ -12,7 +12,7 @@
     }
   },
   {
-    "description":"带参数的post请求",
+    "description":"带普通参数的post请求",
     "request":
     {
       "uri":"/demoPostWithParam",
@@ -26,6 +26,23 @@
     "response":
     {
       "text":"带参数的post请求"
+    }
+  },
+  {
+    "description":"带json参数的post请求",
+    "request":
+    {
+      "uri":"/demoPostWithJsonParam",
+      "method":"post",
+      "json":
+      {
+        "name":"liuboying",
+        "age":"30"
+      }
+    },
+    "response":
+    {
+      "text":"带json参数的post请求"
     }
   }
 ]

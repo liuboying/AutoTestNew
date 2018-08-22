@@ -1,6 +1,23 @@
 [
   {
-    "description":"带cookie的get请求范例",
+    "description":"这是一个会返回cookies的请求范例",
+    "request":
+    {
+      "uri":"/getCookies",
+      "method":"get"
+    },
+    "response":
+    {
+      "cookies":
+      {
+        "status":"ok",
+        "login":"true"
+      },
+      "text":"返回cookies啦"
+    }
+  },
+  {
+    "description":"这是一个带cookie的get请求范例",
     "request":
     {
       "uri":"/get/with/cookies",
